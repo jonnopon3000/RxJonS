@@ -1,0 +1,14 @@
+{
+    "name": "rxjons",
+    "author": "Jon",
+    "version": "1.0.0",
+    "description": "A pure-TypeScript custom implementation of Observables for fun and understanding",
+    "scripts": {
+        "build": "tsc",
+        "dev": "ts-node-dev --project ./tsconfig.json ./src/index.ts --respawn"
+    },
+    "devDependencies": {
+        "ts-node-dev": "^1.0.0-pre.44",
+        "typescript": "^3.7.4"
+    }
+}
